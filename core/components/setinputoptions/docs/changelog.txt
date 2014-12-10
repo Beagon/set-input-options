@@ -1,0 +1,5 @@
+Changelog for SetInputOptions.
+
+SetInputOptions 0.0.1
+==============
+- Initial release.

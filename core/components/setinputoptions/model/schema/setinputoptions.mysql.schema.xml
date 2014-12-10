@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model package="setinputoptions" baseClass="xPDOObject" platform="mysql" defaultEngine="MyISAM" phpdoc-package="setinputoptions" version="0.1">
+    <!-- Input Options table -->
+    <object class="SetInputOptionsInputOption" table="setinputoptions_inputoptions" extends="xPDOSimpleObject">
+        <field key="name" dbtype="varchar" precision="100" phptype="string" null="false" />
+        <field key="softDelete" dbtype="tinyint" precision="1" phptype="boolean" null="false" default="0"/>
+        <field key="position" dbtype="int" precision="10" phptype="integer" null="false" />
+        <field key="group" dbtype="int" precision="10" phptype="integer" null="false" />
+        <aggregate alias="Group" class="SetInputOptionsGroup" local="group" foreign="id" cardinality="one" owner="foreign" />
+    </object>
+
+    <!-- Groups Table -->
+    <object class="SetInputOptionsGroup" table="setinputoptions_groups" extends="xPDOSimpleObject">
+        <field key="name" dbtype="varchar" precision="100" phptype="string" null="false" />
+        <field key="softDelete" dbtype="tinyint" precision="1" phptype="boolean" null="false" default="0"/>
+    </object>
+
+</model>

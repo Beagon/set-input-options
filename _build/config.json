@@ -1,0 +1,60 @@
+{
+    "name": "SetInputOptions",
+    "lowCaseName": "setinputoptions",
+    "description": "",
+    "author": "Robin",
+    "version": "0.1.0",
+    "package":{
+        
+        
+        "actions": [{
+            "id": 1
+            ,"controller": "index"
+        }],
+        "menus": [{
+            "text": "setinputoptions.menu.setinputoptions"
+            ,"description": "setinputoptions.menu.setinputoptions_desc"
+            ,"action": 1
+        }],
+        
+        
+
+        "elements": {
+        
+            
+            "plugins": [],
+            
+        
+            
+            "snippets": [{
+                "name": "SetInputOptions"
+            }],
+            
+        
+            
+            "chunks": [
+            
+            {
+                "name": "Item"
+            }
+            
+            ],
+            
+        
+            
+            "templates": [],
+            
+        
+            "tvs": []
+        
+        },
+
+        "systemSettings": []
+    },
+    
+    "database": {
+        "tables": ["SetInputOptionsGroup", "SetInputOptionsInputOption"]
+    },
+    
+    "extensionPackage": {}
+}
