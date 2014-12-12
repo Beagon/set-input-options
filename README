@@ -1,3 +1,3 @@
 SQL Needed:
 
->@SELECT \`name\` AS \`name\`,\`id\` FROM \`[[+PREFIX]]setinputoptions_inputoptions\` WHERE \`group\` = GROUPID AND \`softDelete` = 0;
+@SELECT `name` AS `name`,`id` FROM `[[+PREFIX]]setinputoptions_inputoptions` WHERE `group` = GROUPID AND `softDelete` = 0;
