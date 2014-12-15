@@ -13,7 +13,6 @@ SetInputOptions.grid.Groups = function(config) {
         ,paging: true
         ,remoteSort: true
         ,ddGroup: 'setinputoptionsItemDDGroup'
-        ,enableDragDrop: true
         ,columns: [{
             header: _('id')
             ,dataIndex: 'id'
@@ -143,10 +142,6 @@ Ext.extend(SetInputOptions.grid.Groups,MODx.grid.Grid,{
         s.baseParams.query = tf.getValue();
         this.getBottomToolbar().changePage(1);
         this.refresh();
-    }
-    
-    ,getDragDropText: function(){
-        return this.selModel.selections.groups[0].data.name;
     }
 });
 Ext.reg('setinputoptions-grid-groups',SetInputOptions.grid.Groups);

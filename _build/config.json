@@ -27,7 +27,7 @@
         
             
             "snippets": [{
-                "name": "SetInputOptions"
+                "name": "getInputOptionsList"
             }],
             
         
@@ -35,7 +35,7 @@
             "chunks": [
             
             {
-                "name": "Item"
+                "name": "inputOptions"
             }
             
             ],

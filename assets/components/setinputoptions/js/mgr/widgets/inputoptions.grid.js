@@ -154,7 +154,7 @@ Ext.extend(SetInputOptions.grid.Inputoptions,MODx.grid.Grid,{
     }
     
     ,getDragDropText: function(){
-        return this.selModel.selections.inputoptions[0].data.name;
+        return this.selModel.selections.items[0].data.name;
     }
 });
 Ext.reg('setinputoptions-grid-inputoptions',SetInputOptions.grid.Inputoptions);
