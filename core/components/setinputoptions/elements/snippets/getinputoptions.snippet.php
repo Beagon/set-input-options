@@ -14,7 +14,7 @@ if (!($setinputoptions instanceof setinputoptions)) {
     return '';
 }
 
-$tpl = $modx->getOption('tpl', $scriptProperties, "inputOptions");
+$tpl = $modx->getOption('tpl', $scriptProperties, "inputOptionsRow");
 $delimiter = $modx->getOption('delimiter', $scriptProperties, ",");
 $templateVariable = $modx->getOption('tv', $scriptProperties);
 
