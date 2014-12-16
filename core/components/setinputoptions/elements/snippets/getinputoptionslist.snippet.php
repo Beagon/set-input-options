@@ -1,8 +1,8 @@
 <?php
 /**
- * The carerix vacany snippet
+ * This snippet can be used to list the input option values in your chunks and templates.
  *
- * @package carerix
+ * @package SetInputOptions
  */
 
 //Include CarerixApi class
