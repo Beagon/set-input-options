@@ -1,1 +1,1 @@
-<li><strong>[[+name]]</strong></li>
+<li>[[+name]]</li>
