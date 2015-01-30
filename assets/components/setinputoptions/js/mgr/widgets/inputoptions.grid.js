@@ -101,6 +101,9 @@ Ext.extend(SetInputOptions.grid.Inputoptions,MODx.grid.Grid,{
         m.push({
             text: _('setinputoptions.inputoption.remove')
             ,handler: this.removeItem
+        }, {
+            text: _('setinputoptions.inputoption.duplicate')
+            ,handler: this.duplicateItem
         });
         this.addContextMenuItem(m);
     }
@@ -138,6 +141,22 @@ Ext.extend(SetInputOptions.grid.Inputoptions,MODx.grid.Grid,{
             ,url: this.config.url
             ,params: {
                 action: 'mgr/inputoption/remove'
+                ,id: this.menu.record.id
+            }
+            ,listeners: {
+                'success': {fn:function(r) { this.refresh(); },scope:this}
+            }
+        });
+    },
+    duplicateItem: function(btn,e) {
+        if (!this.menu.record) return false;
+        
+        MODx.msg.confirm({
+            title: _('setinputoptions.inputoption.duplicate')
+            ,text: _('setinputoptions.inputoption.duplicate_confirm')
+            ,url: this.config.url
+            ,params: {
+                action: 'mgr/inputoption/duplicate'
                 ,id: this.menu.record.id
             }
             ,listeners: {
