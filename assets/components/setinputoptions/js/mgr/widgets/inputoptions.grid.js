@@ -9,7 +9,7 @@ SetInputOptions.grid.Inputoptions = function(config) {
         }
         ,save_action: 'mgr/inputoption/updatefromgrid'
         ,autosave: true
-        ,fields: ['id','name', 'position']
+        ,fields: ['id','name', 'alias', 'position']
         ,autoHeight: true
         ,paging: true
         ,remoteSort: true
@@ -22,6 +22,11 @@ SetInputOptions.grid.Inputoptions = function(config) {
         },{
             header: _('setinputoptions.inputoption.name')
             ,dataIndex: 'name'
+            ,width: 200
+            ,editor: { xtype: 'textfield' }
+        },{
+            header: _('setinputoptions.inputoption.alias')
+            ,dataIndex: 'alias'
             ,width: 200
             ,editor: { xtype: 'textfield' }
         },{
@@ -198,6 +203,11 @@ SetInputOptions.window.Item = function(config) {
             xtype: 'textfield'
             ,fieldLabel: _('name')
             ,name: 'name'
+            ,anchor: '100%'
+        },{
+            xtype: 'textfield'
+            ,fieldLabel: _('alias')
+            ,name: 'alias'
             ,anchor: '100%'
         }]
     });

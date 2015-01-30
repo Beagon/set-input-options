@@ -10,6 +10,7 @@ $xpdo_meta_map['SetInputOptionsInputOption']= array (
   'fields' => 
   array (
     'name' => NULL,
+    'alias' => NULL,
     'softDelete' => 0,
     'position' => NULL,
     'group' => NULL,
@@ -17,6 +18,13 @@ $xpdo_meta_map['SetInputOptionsInputOption']= array (
   'fieldMeta' => 
   array (
     'name' => 
+    array (
+      'dbtype' => 'varchar',
+      'precision' => '100',
+      'phptype' => 'string',
+      'null' => false,
+    ),
+    'alias' => 
     array (
       'dbtype' => 'varchar',
       'precision' => '100',

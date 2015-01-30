@@ -15,6 +15,7 @@ class SetInputOptionsInputOptionDuplicateProcessor extends modProcessor
 
         $newInputOption = $this->modx->newObject($this->classKey, array(
             'name' => $inputOption->name,
+            'alias' => $inputOption->alias,
             'position' => $positionCount,
             'group' => $inputOption->group,
         ));

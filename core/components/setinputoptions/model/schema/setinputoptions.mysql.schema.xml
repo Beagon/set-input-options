@@ -3,6 +3,7 @@
     <!-- Input Options table -->
     <object class="SetInputOptionsInputOption" table="setinputoptions_inputoptions" extends="xPDOSimpleObject">
         <field key="name" dbtype="varchar" precision="100" phptype="string" null="false" />
+        <field key="alias" dbtype="varchar" precision="100" phptype="string" null="false" />
         <field key="softDelete" dbtype="tinyint" precision="1" phptype="boolean" null="false" default="0"/>
         <field key="position" dbtype="int" precision="10" phptype="integer" null="false" />
         <field key="group" dbtype="int" precision="10" phptype="integer" null="false" />

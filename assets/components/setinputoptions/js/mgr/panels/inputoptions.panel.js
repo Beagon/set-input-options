@@ -4,7 +4,7 @@ SetInputOptions.panel.Inputoptions = function(config) {
         border: false
         ,baseCls: 'modx-formpanel'
         ,cls: 'container'
-        ,items: [{
+        ,items: [{  
             html: '<h2>'+_('setinputoptions')+'</h2>'
             ,border: false
             ,cls: 'modx-page-header'

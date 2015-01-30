@@ -35,6 +35,7 @@ $_lang['setinputoptions.inputoption.inputoption'] = 'Input options';
 $_lang['setinputoptions.inputoption.intro_msg'] = 'Manage your input options for the group: ';
 
 $_lang['setinputoptions.inputoption.name'] = "Name";
+$_lang['setinputoptions.inputoption.alias'] = "Alias";
 $_lang['setinputoptions.inputoption.goBack'] = "Back to groups";
 $_lang['setinputoptions.inputoption.type'] = "Type";
 $_lang['setinputoptions.inputoption.position'] = "Position";
