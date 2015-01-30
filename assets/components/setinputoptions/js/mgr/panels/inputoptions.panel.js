@@ -17,7 +17,7 @@ SetInputOptions.panel.Inputoptions = function(config) {
             ,items: [{
                 title: _('setinputoptions.inputoption.inputoption')
                 ,items: [{
-                    html: '<p>'+_('setinputoptions.inputoption.intro_msg')+'</p>'
+                    html: '<p>'+_('setinputoptions.inputoption.intro_msg') + '<b>' + (pageTitle || "") +'</b></p>'
                     ,border: false
                     ,bodyCssClass: 'panel-desc'
                 },{

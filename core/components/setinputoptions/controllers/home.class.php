@@ -30,9 +30,19 @@ class SetInputOptionsHomeManagerController extends SetInputOptionsBaseManagerCon
             $this->addJavascript($this->setinputoptions->getOption('jsUrl').'mgr/widgets/inputoptions.grid.js');
             $this->addJavascript($this->setinputoptions->getOption('jsUrl').'mgr/panels/inputoptions.panel.js');
             $this->addLastJavascript($this->setinputoptions->getOption('jsUrl').'mgr/sections/inputoptions.js');
+            $group = $this->modx->getObject('SetInputOptionsInputOption', $_GET['id']);
+
+            //Check if not removed
+            if (!$group) {
+                $groupName = json_encode("Not Found");
+            } else {
+                $groupName = json_encode($group->get('name'));
+            }
+
             $this->addHtml('
                 <script type="text/javascript">
                         addGroupId = '. $_GET['id'] .';
+                        pageTitle = ' . $groupName . ';
                 </script>
             ');
         }

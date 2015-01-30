@@ -32,7 +32,7 @@ $_lang['setinputoptions.err.group_remove'] = 'An error occurred while trying to 
 $_lang['setinputoptions.err.group_save'] = 'An error occurred while trying to save the group.';
 
 $_lang['setinputoptions.inputoption.inputoption'] = 'Input options';
-$_lang['setinputoptions.inputoption.intro_msg'] = 'Manage your input options.';
+$_lang['setinputoptions.inputoption.intro_msg'] = 'Manage your input options for the group: ';
 
 $_lang['setinputoptions.inputoption.name'] = "Name";
 $_lang['setinputoptions.inputoption.goBack'] = "Back to groups";
