@@ -19,7 +19,7 @@ $delimiter = $modx->getOption('delimiter', $scriptProperties, ",");
 $templateVariable = $modx->getOption('tv', $scriptProperties);
 $outputDelimiter = $modx->getOption('outputDelimiter', $scriptProperties, "\n");
 
-if (empty($templateVariable)) {
+if (is_null($templateVariable)) {
     return 'You forgot the tv parameter.';
 }
 
