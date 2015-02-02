@@ -17,6 +17,7 @@ if (!($setinputoptions instanceof setinputoptions)) {
 $tpl = $modx->getOption('tpl', $scriptProperties, "inputOptionsRow");
 $delimiter = $modx->getOption('delimiter', $scriptProperties, ",");
 $templateVariable = $modx->getOption('tv', $scriptProperties);
+$outputDelimiter = $modx->getOption('outputDelimiter', $scriptProperties, "\n");
 
 if (empty($templateVariable)) {
     return 'You forgot the tv parameter.';
@@ -33,6 +34,8 @@ foreach ($inputOptions as $value) {
 }
 
 /* output */
-$output = implode("\n", $list);
+
+$output = implode($outputDelimiter, $list);
+
 /* by default just return output */
 return $output;
