@@ -6,10 +6,10 @@
  * @subpackage lexicon
  */
 
-$_lang['setinputoptions'] = 'Input Options';
+$_lang['setinputoptions'] = 'Set Input Options';
 
-$_lang['setinputoptions.menu.setinputoptions'] = 'Input Options';
-$_lang['setinputoptions.menu.setinputoptions_desc'] = 'Add Input options for your tv\'s';
+$_lang['setinputoptions.menu.setinputoptions'] = 'Set Input Options';
+$_lang['setinputoptions.menu.setinputoptions_desc'] = 'Add input options values for your tv\'s';
 
 $_lang['setinputoptions.global.search'] = 'Search';
 

@@ -1,52 +1,38 @@
 {
     "name": "SetInputOptions",
     "lowCaseName": "setinputoptions",
-    "description": "",
-    "author": "Robin",
-    "version": "0.3.0",
+    "description": "A simple CMP for creating Input Option Values for various TV input types. By saving the selected values in a separate database table and referring to them by ID, it provides you with a more solid way to change for example the name of a value, or to edit a typo.",
+    "author": "Robin Rijkeboer",
+    "version": "0.3.2",
+
     "package":{
-        
-        
+
         "actions": [{
             "id": 1
             ,"controller": "index"
         }],
+
         "menus": [{
             "text": "setinputoptions.menu.setinputoptions"
             ,"description": "setinputoptions.menu.setinputoptions_desc"
             ,"action": 1
         }],
-        
-        
 
         "elements": {
-        
             
             "plugins": [],
-            
-        
             
             "snippets": [{
                 "name": "getInputOptions"
             }],
-            
-        
-            
-            "chunks": [
-            
-            {
+
+            "chunks": [{
                 "name": "inputOptionsRow"
-            }
-            
-            ],
-            
-        
-            
+            }],
+
             "templates": [],
-            
-        
+
             "tvs": []
-        
         },
 
         "systemSettings": []

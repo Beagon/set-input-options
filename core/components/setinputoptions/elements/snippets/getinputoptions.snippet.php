@@ -5,7 +5,7 @@
  * @package SetInputOptions
  */
 
-//Include CarerixApi class
+// Include SetInputOptions class
 require_once $modx->getOption('setinputoptions.core_path', null, $modx->getOption('core_path').'components/setinputoptions/').'model/setinputoptions/setinputoptions.class.php';
 
 $setinputoptions = $modx->getService('setinputoptions', 'setinputoptions', $modx->getOption('setinputoptions.core_path', null, $modx->getOption('core_path').'components/setinputoptions/').'model/setinputoptions/', $scriptProperties);
