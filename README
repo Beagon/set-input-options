@@ -31,9 +31,14 @@ An example @SELECT binding for listboxes and multiselects. Note the first part u
 - delimiter
 - outputDelimiter
 
+### Available placeholders in the row tpl:
+
+- name
+- alias
+
 ## Display input option values using the Rowboat snippet
 
-You can use Rowboat to list all the options in a group. Useful for example, for creating filter buttons. Don't forget to download and install Rowboat separately through package manager!
+You can also use Rowboat to list all the options in a group. Useful for example, for creating filter buttons. Don't forget to download and install Rowboat separately through package manager!
 
 ```
 [[Rowboat?
