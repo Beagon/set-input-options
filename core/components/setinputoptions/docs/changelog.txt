@@ -1,5 +1,36 @@
-Changelog for SetInputOptions.
+Changelog for SetInputOptions
 
-SetInputOptions 0.0.1
-==============
-- Initial release.
+++ SetInputOptions 1.0.1-pl
+++ Released on 15-04-2015
++++++++++++++++++++++++++
+- Update changelog
+- Minor cleanup
+
+++ SetInputOptions 1.0.0-pl
+++ Released on 15-04-2015
++++++++++++++++++++++++++
+- Update readme
+- Remove li tag from inputOptionsRow
+- Minor text tweaks
+
+++ SetInputOptions 0.3.2-pl
+++ Released on 02-02-2015
++++++++++++++++++++++++++
+- Add output delimiter
+
+++ SetInputOptions 0.2.0-pl
+++ Released on 30-01-2015
++++++++++++++++++++++++++
+- Add duplicate function
+- Add groupname to the input options page
+- Add alias field
+
+++ SetInputOptions 0.1.0-beta
+++ Released on 16-12-2014
++++++++++++++++++++++++++
+- Add getInputOptions snippet
+
+++ SetInputOptions 0.0.1-beta
+++ Released on 10-12-2014
++++++++++++++++++++++++++
+- Initial release
