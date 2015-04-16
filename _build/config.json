@@ -3,7 +3,7 @@
     "lowCaseName": "setinputoptions",
     "description": "A simple CMP for creating Input Option Values for various TV input types. By saving the selected values in a separate database table and referring to them by ID, you are protected from typos or accidental deletion of values screwing up your selections.",
     "author": "Robin Rijkeboer",
-    "version": "1.0.1",
+    "version": "1.0.1-pl",
 
     "package": {
         "actions": [{
