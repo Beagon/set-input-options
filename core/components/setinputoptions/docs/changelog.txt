@@ -1,6 +1,6 @@
 Changelog for SetInputOptions
 
-++ SetInputOptions 1.0.1-pl
+++ SetInputOptions 1.0.2-pl
 ++ Released on 15-04-2015
 +++++++++++++++++++++++++
 - Update changelog
