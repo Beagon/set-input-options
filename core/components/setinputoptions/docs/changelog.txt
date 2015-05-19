@@ -3,6 +3,7 @@ Changelog for SetInputOptions
 ++ Beta
 +++++++++++++++++++++++++
 - Add examples to snippet
+- Add default alias
 - Fix issue where the group name was not displayed correctly.
 - Rearranged widths in the CPM table.
 
