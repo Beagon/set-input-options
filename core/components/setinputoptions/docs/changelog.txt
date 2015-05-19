@@ -4,6 +4,7 @@ Changelog for SetInputOptions
 +++++++++++++++++++++++++
 - Add examples to snippet
 - Fix issue where the group name was not displayed correctly.
+- Rearranged widths in the CPM table.
 
 ++ SetInputOptions 1.0.2-pl
 ++ Released on 15-04-2015

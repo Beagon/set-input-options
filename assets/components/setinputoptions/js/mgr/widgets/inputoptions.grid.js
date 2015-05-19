@@ -27,12 +27,12 @@ SetInputOptions.grid.Inputoptions = function(config) {
         },{
             header: _('setinputoptions.inputoption.alias')
             ,dataIndex: 'alias'
-            ,width: 200
+            ,width: 150
             ,editor: { xtype: 'textfield' }
         },{
             header: _('setinputoptions.inputoption.position')
             ,dataIndex: 'position'
-            ,width: 20
+            ,width: 30
         }]
         ,tbar: [{
             text: _('setinputoptions.inputoption.create')
