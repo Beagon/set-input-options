@@ -38,6 +38,10 @@ SetInputOptions.grid.Inputoptions = function(config) {
             text: _('setinputoptions.inputoption.create')
             ,handler: this.createItem
             ,scope: this
+        },{
+            text: _('setinputoptions.inputoption.export')
+            ,handler: this.exportItems
+            ,scope: this
         },'->',{
             xtype: 'textfield'
             ,emptyText: _('setinputoptions.global.search') + '...'
@@ -136,7 +140,18 @@ Ext.extend(SetInputOptions.grid.Inputoptions,MODx.grid.Grid,{
 
         createItem.show(e.target);
     }
+    , exportItems: function(btn, e) {
+        // separating the GET parameters from the current URL
+        var getParams = document.URL.split("?");
+        // transforming the GET parameters into a dictionary
+        var params = Ext.urlDecode(getParams[getParams.length - 1]);
 
+        Ext.Msg.confirm(_('setinputoptions.inputoption.export'), _('setinputoptions.inputoption.exportMsg'), function(e) {
+            if (e == 'yes') {
+                window.location = SetInputOptions.config.connectorUrl + '?action=mgr/inputoption/export&HTTP_MODAUTH=' + MODx.siteId + '&id=' + params['id'];
+            }
+        });
+    }
     ,removeItem: function(btn,e) {
         if (!this.menu.record) return false;
         

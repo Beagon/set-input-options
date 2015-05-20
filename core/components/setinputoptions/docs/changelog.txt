@@ -7,6 +7,7 @@ Changelog for SetInputOptions
 - Fix issue where the group name was not displayed correctly.
 - Rearranged widths in the CPM table.
 - Renamed `tv` parameter to `tvOutput` (The `tv` parameter will still work untill the next major release)
+- Added export function.
 
 ++ SetInputOptions 1.0.2-pl
 ++ Released on 15-04-2015
