@@ -18,11 +18,11 @@ if (!($setinputoptions instanceof setinputoptions)) {
 
 $tpl = $modx->getOption('tpl', $scriptProperties, "inputOptionsRow");
 $delimiter = $modx->getOption('delimiter', $scriptProperties, ",");
-$templateVariable = $modx->getOption('tv', $scriptProperties);
+$templateVariable = (!is_null($modx->getOption('tv', $scriptProperties)) ? $modx->getOption('tv', $scriptProperties) : $modx->getOption('tvOutput', $scriptProperties));
 $outputDelimiter = $modx->getOption('outputDelimiter', $scriptProperties, "\n");
 
 if (is_null($templateVariable)) {
-    return 'You forgot the tv parameter.';
+    return 'You forgot the tvOutput parameter.';
 }
 
 $query = $modx->newQuery('SetInputOptionsInputOption');

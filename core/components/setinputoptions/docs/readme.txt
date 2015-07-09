@@ -1,7 +1,7 @@
 ---------------------------------------
 SetInputOptions
 ---------------------------------------
-Version: 1.0.2
+Version: 1.0.3
 Author: Robin Rijkeboer <robin@qaraqter.nl>
 ---------------------------------------
 
