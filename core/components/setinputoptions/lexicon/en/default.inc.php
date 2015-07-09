@@ -26,7 +26,7 @@ $_lang['setinputoptions.group.remove'] = 'Remove a group';
 $_lang['setinputoptions.group.remove_confirm'] = 'Are you sure you want to remove this group?';
 
 $_lang['setinputoptions.err.group_name_ae'] = 'An group already exists with that name.';
-$_lang['setinputoptions.err.group_nf'] = 'group not found.';
+$_lang['setinputoptions.err.group_nf'] = 'Group not found.';
 $_lang['setinputoptions.err.group_name_ns'] = 'Name is not specified.';
 $_lang['setinputoptions.err.group_remove'] = 'An error occurred while trying to remove the group.';
 $_lang['setinputoptions.err.group_save'] = 'An error occurred while trying to save the group.';

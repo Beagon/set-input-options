@@ -1,7 +1,7 @@
 ---------------------------------------
 SetInputOptions
 ---------------------------------------
-Version: 1.0.3
+Version: 1.1.0
 Author: Robin Rijkeboer <robin@qaraqter.nl>
 ---------------------------------------
 
@@ -29,11 +29,12 @@ An example @SELECT binding for listboxes and multiselects. Note the first part u
 ## Display input option values using the getInputOptions snippet
 
 ```
-[[getInputOptions? &tv=`[[*your_template_variable]]`]]
+[[getInputOptions? &tvOutput=`[[*your_template_variable]]`]]
 ```
 
 ### Available properties:
 
+- tvOutput
 - tpl
 - delimiter
 - outputDelimiter

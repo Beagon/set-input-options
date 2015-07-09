@@ -140,7 +140,7 @@ Ext.extend(SetInputOptions.grid.Inputoptions,MODx.grid.Grid,{
 
         createItem.show(e.target);
     }
-    , exportItems: function(btn, e) {
+    ,exportItems: function(btn, e) {
         // separating the GET parameters from the current URL
         var getParams = document.URL.split("?");
         // transforming the GET parameters into a dictionary

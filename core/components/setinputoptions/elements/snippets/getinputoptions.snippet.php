@@ -2,7 +2,7 @@
 /**
  * This snippet can be used to list the input option values in your chunks and templates.
  *
- * Example usage: [[getInputOptions? &tv=`[[*your_template_variable]]`]]
+ * Example usage: [[getInputOptions? &tvOutput=`[[*your_template_variable]]`]]
  *
  * @package SetInputOptions
  */
