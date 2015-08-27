@@ -1,5 +1,11 @@
 SetInputOptions is a very basic CMP that allows you to create groups with their own input options. These options can then be used in TV's, for checkboxes / listboxes etc. This is a better / safer method than the regular way of creating these options (option1==1||option2==2), leaving them vulnerable to typo's and deletion.
 
+Authors
+-------
+
+* Robin Rijkeboer <rmrijkeboer@gmail.com>
+* Hugo Peek <hugo@qaraqter.nl>
+
 # How to use the SetInputOptions extra for MODX
 
 - Install SetInputOptions through the package manager (currently only available on extra.io)
